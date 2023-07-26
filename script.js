@@ -67,8 +67,8 @@ gsap.from(".green-div", {
     }
 })
 gsap.from("#img1 ", {
-    x: -70,
-    y: -70,
+    x: -20,
+    y: -20,
    
     scrollTrigger: {
         trigger: "#img1",
@@ -79,14 +79,14 @@ gsap.from("#img1 ", {
     }
 })
 gsap.from("#img2", {
-    x: 70,
-    y: 70,
+    x: 20,
+    y: 20,
 
     scrollTrigger: {
         trigger: "#img2",
         scroller: "body",
-        // start: "top 55%",
-        // end: "top 45%",
+        start: "top 55%",
+        end: "top 45%",
         scrub: 4,
     }
 })
@@ -100,8 +100,3 @@ gsap.from("#page4 h1", {
         scrub: 3,
     }
 })
-
-
-
-
- /*type casting*/
